@@ -1,0 +1,47 @@
+/* ----------------------------------------- */
+/* -------------- BPM COUNTER -------------- */
+/* ----------------------------------------- */
+
+#bpmCounter {
+    color: var(--color--secondary__bpm);
+    background: var(--color--primary__bpm); }
+
+h1 {
+    text-align: center; }
+
+h4 {
+    margin-bottom: 20px; }
+
+p {
+    line-height: 1.5; }
+
+span {
+    text-decoration: underline;
+    margin: 0.8rem;
+    cursor: pointer; }
+
+.btn--primary__bpm {
+    padding: 20px 40px;
+    margin: 1vh;
+    border: 5px solid var(--color--secondary__bpm);
+    color: var(--color--primary__bpm);
+    font-size: 1.5rem;
+    background: var(--color--secondary__bpm);
+    text-decoration: none;
+    cursor: pointer; }
+
+.btn--primary__bpm:hover {
+    color: var(--color--secondary__bpm);
+    background-color: var(--color--primary__bpm); }
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease-in-out; }
+
+.clicked {
+    transform: scale(1.2); }

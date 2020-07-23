@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../components/globals.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body id="pomodoroTimer">
+
+  <section class="wrapper" id ="frontPage">
+
+    <h1>POMODORO TIMER</h1>
+
+    <div class="btn-row first">
+      <h5>Work</h5>
+      <input type="text" id="work">
+      <h5>mins</h5>
+    </div>
+    
+    <div class="btn-row first">
+      <h5>Pause</h5>
+      <input type="text" id="pause">
+      <h5>mins</h5>
+    </div>
+    
+    <div class="btn-row first">
+      <h5>Break</h5>
+      <input type="text" id="rest">
+      <h5>mins</h5>
+    </div>
+
+    <button onclick="buttonClicked('timer')" class="btn btn--secondary__pomodoro"><h2>GO</h2></button>
+
+  </section>
+  
+  <section class="wrapper hide" id="timerPage">
+    
+    <div class="btn-row timer">
+      <h1 id="head">WORK</h1>
+    </div>
+
+    <div class="middle">
+      <h2 id="timer">13:37</h2>
+      <a onclick="buttonClicked('back')"><p>Wanna restart?</p></a>
+    </div>
+    
+    <div class="bar-row">
+      <div id="holder"><div id="arrow"></div></div>
+      <div id="bar">
+        <p>work</p>
+        <div class="line"></div>
+        <p>pause</p>
+        <div class="line"></div>
+        <p>work</p>
+        <div class="line"></div>
+        <p>pause</p>
+        <div class="line"></div>
+        <p>work</p>
+        <div class="line"></div>
+        <p>pause</p>
+        <div class="line"></div>
+        <p>work</p>
+        <div id="breakBar" class="hide">
+          <h5>Break</h5>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

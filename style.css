@@ -1,0 +1,127 @@
+/* ----------------------------------------- */
+/* ---------------- HOMEPAGE --------------- */
+/* ----------------------------------------- */
+
+#homepage {
+    color: var(--color--secondary__home);
+    background: var(--color--primary__home); }
+
+.btn-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap; }
+
+.btn--primary__home {    
+    color: var(--color--primary__home);
+    position: relative;
+    background-color: var(--color--secondary__home);
+    border: 5px solid var(--color--secondary__home);
+    width: 210px;
+    height: 210px; }
+
+    .btn--primary__home img {
+        position: relative;
+        z-index: 1;
+        transition: all 0.2s ease;
+        opacity: 1; }
+
+    .btn--primary__home p {
+        padding: 10px;
+        font-weight: 400; }
+
+    .btn--primary__home:hover img {
+        opacity: 0; }
+
+.btn--secondary__home {    
+    color: var(--color--primary__home);
+    background-color: var(--color--secondary__home);
+    border: 5px solid var(--color--secondary__home); }
+
+.btn--secondary__home:hover {
+    color: var(--color--secondary__home);
+    background-color: var(--color--primary__home); }
+
+.hidden-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; }
+
+#sec1, #sec2, #sec3, #sec4, #sec5 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; }
+
+/* --- Section 1 (top) --- */
+
+    #sec1 h1 {
+        position: absolute;
+        /* font-size: 10vmin; */
+        top: 4%; }
+
+    #sec1 h5 {
+        font-size: 5vmin;
+        width: 70vw; }
+
+/* --- Section 2 (work) --- */
+
+    #sec2 .bottom-row {
+        width: 50%; }
+
+/* --- Section 3 (about) --- */
+
+    #sec3 h2 {
+        position: absolute;
+        top: 4%; }
+
+    #sec3 p {
+        width: 60vw;
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 1rem; }
+
+/* --- Section 4 (skills) --- */
+
+    #sec4 .columns {
+        padding: 30px;
+        margin: 10px;
+        columns: 350px 3; }
+
+        #sec4 .columns h5 {
+            padding-bottom: 10px;
+            margin-left: -20px;
+            padding-top: 0; }
+
+    #sec4 ul li {
+        margin: 10px 10px; }
+
+/* --- Section 5 (contact) --- */
+
+    #sec5 h2 {
+        position: absolute;
+        top: 4%; }
+
+
+/* --- Media Queries --- */
+
+@media screen and (max-width: 1090px) {
+    #sec3 h2 {
+        position: relative; }
+
+    #sec5 h2 {
+        position: relative; }
+}
+
+@media screen and (max-width: 930px) {
+    section {
+        margin-bottom: 40px; }
+}
+
+@media screen and (max-width: 840px) {
+    #sec3 p {
+        width: 80vw;
+        font-size: 0.6rem; }
+}

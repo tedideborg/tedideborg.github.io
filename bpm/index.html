@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../components/globals.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pulsräknare</title>
+</head>
+<body onkeypress="pressedKeyboardBPM(event)" id="bpmCounter">
+    <div class="wrapper">
+        <section id="main">
+            <canvas id="heartIcon" width="215" height="300"></canvas>
+            <h2 id="bpm">0</h2>
+            <h2>BPM</h2>
+            <h4 id="pulse">resting pulse</h4>
+            <button class="btn btn--primary__bpm" id="space" onclick="clickedBPM()">SPACE BUTTON</button>
+            <span onclick="resetBPM()">restart</span>
+            <p>click space (the button or space on your keyboard) to measure your heartbeat.</p>
+            <p>*This is not a medicinal heartbeat counter. If you are suspecting problems with your heart, please contact a doctor.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "situps" : ["core", "assets/pushup.png", "videoUrl"], 
+  "hej" : ["core", "imageUrl", "videoUrl"], 
+  "bajs" : ["core", "imageUrl", "videoUrl"], 
+  "skit" : ["core", "imageUrl", "videoUrl"], 
+  "legs" : ["core", "imageUrl", "videoUrl"], 
+  "red" : ["core", "imageUrl", "videoUrl"],
+  "pushups" : ["core", "imageUrl", "videoUrl"],
+  "sitt" : ["core", "imageUrl", "videoUrl"],
+  "superman" : ["back", "imageUrl", "videoUrl"],
+  "squats" : ["legs", "imageUrl", "videoUrl"],
+  "ankles" : ["legs", "imageUrl", "videoUrl"]
+}
