@@ -20,9 +20,8 @@
   position: relative;
   background-color: var(--color--primary__home);
   border: 5px solid var(--color--secondary__home);
-  width: 210px;
-  height: 210px;
-  padding: 15px;
+  width: 240px;
+  height: 240px;
   margin: 20px;
   text-align: left;
 }

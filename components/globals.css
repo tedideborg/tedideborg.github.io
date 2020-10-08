@@ -97,8 +97,8 @@ a {
 }
 
 .btn > img {
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 240px;
+  max-height: 240px;
 }
 
 @media screen and (max-width: 600px) {
