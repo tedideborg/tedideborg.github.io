@@ -9,6 +9,14 @@
 h1 {
     text-align: center; }
 
+h2 {
+    font-size: 5vmin;
+    font-weight: 900;
+    width: auto;
+    letter-spacing: 14px;
+    position: relative;
+    top: 0; }
+
 h4 {
     margin-bottom: 20px; }
 
