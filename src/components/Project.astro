@@ -1,0 +1,36 @@
+<a href={Astro.props.link} class="project">
+	<img src={Astro.props.image}>
+	<h5 class="fs-small-heading">{Astro.props.title}</h5>
+	<p><small>{Astro.props.category}</small></p>
+</a>
+
+<style>
+	img {
+		border-radius: 30px;
+		max-width: 190px;
+		max-height: 190px;
+	}
+
+	.project {
+		max-width: 280px;
+		flex: 0 1 min-content;
+		margin: var(--sp-400) var(--sp-300);
+		padding: var(--sp-600);
+		border-radius: 5px;
+		border: 1px solid var(--clr-neutral-700);
+		cursor: pointer;
+		transition: 0.1s;
+	}
+	
+	.project:hover {
+		box-shadow: rgba(0, 0,0, 0.15) 0px 4px 3px 0px;
+		transform: translateY(-4px);
+	}
+
+	.fs-small-heading {
+		white-space: nowrap;
+  		overflow: hidden;
+		max-width: 190px;
+		text-overflow: ellipsis;
+	}
+</style>

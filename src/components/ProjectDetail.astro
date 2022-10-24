@@ -1,0 +1,77 @@
+<div class="project-detail">
+	<img src={Astro.props.image}>
+	<h5 class="heading fs-small-heading">{Astro.props.title}</h5>
+	<p class="category"><small>{Astro.props.category}</small></p>
+	<p class="info">{Astro.props.info}</p>
+	<div class="labels">{Astro.props.labels.map(label => {
+		return <p class="label"><small>{label}</small></p>
+	})}</div>
+	<a href={Astro.props.link} class="fs-link fs-small-heading link"><small>Link</small></a>
+</div>
+
+<style>
+	/* Använda grid här, gör det hela nog enklare */
+	.project-detail {
+		display: grid;
+		grid-template-areas:
+		"img heading"
+		"img category"
+		"img info"
+		"img labels"
+		"img link";
+		grid-template-rows: min-content min-content 1fr min-content min-content;
+		grid-template-columns: min-content 1fr;
+		margin: var(--sp-500) 0;
+		padding: var(--sp-500) var(--sp-400);
+		/* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px 0px; */
+		border: 1px solid var(--clr-neutral-700);
+		/* background-color: var(--clr-neutral-200); */
+		border-radius: 5px;
+		flex: 1 0 100%;
+	}
+
+	img {
+		grid-area: img;
+		padding-right: var(--sp-200);
+	}
+
+	.heading {
+		grid-area: heading;
+	}
+
+	.category {
+		grid-area: category;
+		color: hsl(0, 0%, 39%);
+		margin: var(--sp-100) 0 var(--sp-300) 0;
+	}
+
+	
+	.info {
+		grid-area: info;
+	}
+
+	.labels {
+		grid-area: labels;
+		margin: var(--sp-300) 0;
+	}
+	
+	.link {
+		grid-area: link;
+	}
+
+	.label::before {
+		content: "#";
+	}
+	
+	.label {
+		margin-right: var(--sp-300);
+		text-transform: capitalize;
+		display: inline;
+	}
+
+	@media (max-width: 50em) {
+		img {
+			display: none;
+		}
+	}
+</style>

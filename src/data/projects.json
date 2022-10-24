@@ -1,0 +1,74 @@
+{
+    "projects": [
+        {
+            "id": 6,
+            "title": "Weather App",
+            "description": "A small weather app built with Angular",
+            "image": "images/weather-app.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/weather-app/",
+            "labels": ["Angular"],
+            "info": "A simple weather app I built with Angular, just to give it a go."
+        },
+        {
+            "id": 5,
+            "title": "Lowrez Wrassle",
+            "description": "A low resolution multiplayer game for the web, built with Godot",
+            "image": "images/lowResWrassle_small.png",
+            "category": "Game Development",
+            "link": "https://tedideborg.itch.io/low-res-wrassle",
+            "labels": ["Godot"],
+            "info": "A low resolution game that I made with the lowrezjam boundaries (but not for the jam). Created with Godot game engine."
+        },
+        {
+            "id": 4,
+            "title": "Workout generator",
+            "description": "A site to randomize a workout, built with React",
+            "image": "images/workout_small.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/workout-generator/#/workout",
+            "labels": ["React", "SASS", "Typescript"],
+            "info": "A simple workout generator I built with React, TypeScript and sass."
+        },
+        {
+            "id": 3,
+            "title": "Chris Forvård",
+            "description": "A simple website for my moms business",
+            "image": "images/chris_small.png",
+            "category": "Frontend Development",
+            "link": "https://chrisfotvard.se",
+            "labels": ["HTML", "CSS"],
+            "info": "A simple one-page website I built for my mothers fot care salon. Built to be very easy to read and to be used on old computers as well."
+        },
+        {
+            "id": 2,
+            "title": "Circl'r",
+            "description": "A iPhone game built with Godot",
+            "image": "images/circlr_small.png",
+            "category": "Game Development",
+            "link": "https://tedideborg.itch.io/circlr",
+            "labels": ["Godot"],
+            "info": "A game that I made for iPhone and iPad created with Godot game engine. That is now living on Itch."
+        },
+        {
+            "id": 1,
+            "title": "Pomodoro Timer",
+            "description": "A pomodoro timer built with vanilla js",
+            "image": "images/pomodoro_small.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/pomodoro/",
+            "labels": ["HTML", "CSS", "Javascript"],
+            "info": "A simple pomodorotimer that I built in vanilla Javascript."
+        },
+        {
+            "id": 0,
+            "title": "BPM Counter",
+            "description": "A BPM counter built with vanilla js",
+            "image": "images/bpm_small.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/bpm/",
+            "labels": ["HTML", "CSS", "Javascript"],
+            "info": "A very simple heartbeat counter that I made with Javascript as an examination project for my webdevelopment course."
+        }
+    ]
+}

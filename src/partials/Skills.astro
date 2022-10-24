@@ -1,0 +1,59 @@
+---
+import json from "../data/skills.json";
+
+const skills = json.skills;
+---
+
+<section>
+	<h2 class="fs-secondary-heading space-bottom">Skills</h2>
+	<div class="skills">
+		{skills.map((group) => {
+			return (
+				<div class="skill-group">
+					<h3 class="fs-medium-bold-heading">{group.what}</h3>
+					{group.skills.map((item) => {
+						return (
+							<div class="skill">
+								<img src={item.icon}>
+								<p>{item.what}</p>
+							</div>
+							)
+					})}
+				</div>
+			)
+		})}
+	</div>
+</section>
+
+<style>
+	.skills {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		width: 100%;
+	}
+
+	.skill-group h3 {
+		margin-top: 1.4rem;
+		margin-bottom: 1rem;
+	}
+
+	.skill {
+		margin: var(--sp-200) 0;
+		display: grid;
+		grid-auto-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.skill p {
+		margin-left: var(--sp-200);
+		display: inline;
+	}
+
+	.skill i,
+	.skill img {
+		width: 20px;
+		height: auto;
+	}
+</style>

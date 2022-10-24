@@ -1,0 +1,74 @@
+---
+import Body from "../components/Body.astro";
+import ProjectDetail from "../components/ProjectDetail.astro";
+import json from "../data/projects.json";
+
+const projects = json.projects;
+---
+<Body>
+	<section>
+		<!-- TODO: Add a filter button here for different types of projects (react, vue) in the future (maybe use Alpine?)-->
+		<!-- <div class="heading-section"> -->
+			<h2 class="project-heading | fs-secondary-heading space-bottom">Projects</h2>
+			<!-- <div class="filter" x-data={`{filters: []}`}>
+				<h3 class="filter__heading | fs-small-heading">Filter:</h3>
+				<button class="filter__button" x-on:click="alert('hej')">React</button>
+			</div> -->
+		<!-- </div> -->
+		<div class="projects">
+			{projects.map(project => (
+				<ProjectDetail
+					title={project.title}
+					image={project.image}
+					category={project.category}
+					link={project.link}
+					info={project.info}
+					labels={project.labels}
+				/>
+			))}
+		</div>
+	</section>
+</Body>
+
+<style>
+	/* .heading-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.filter__heading {
+		margin-right: var(--sp-400);
+	} */
+	
+	.project-heading {
+		margin-top: var(--sp-500);
+	}
+
+	.filter__button {
+		margin-left: var(--sp-200);
+		background-color: transparent;
+		border: 1px solid lightgray;
+		border-radius: 10px;
+		padding: var(--sp-200) var(--sp-300);
+	}
+
+	.filter__button:active {
+		background-color: blue;
+	}
+
+	.filter__button .active {
+		background-color: red;
+	}
+
+	.filter {
+		display: flex;
+	}
+	
+	.projects {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+</style>

@@ -1,0 +1,32 @@
+{
+    "work": [
+        {
+            "id": 3,
+            "title": "Relax Gaming",
+            "position": "Frontend developer, game developer",
+            "startTime": 2021,
+            "endTime": "present"
+        },
+        {
+            "id": 2,
+            "title": "Epinova AB",
+            "position": "Frontend developer",
+            "startTime": 2020,
+            "endTime": 2021
+        },
+        {
+            "id": 1,
+            "title": "Yggdrasil",
+            "position": "Frontend developer, game developer",
+            "startTime": 2019,
+            "endTime": 2020
+        },
+        {
+            "id": 0,
+            "title": "Objective/A",
+            "position": "Frontend developer",
+            "startTime": 2018,
+            "endTime": 2019
+        }
+    ]
+}

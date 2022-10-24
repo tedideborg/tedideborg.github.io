@@ -1,0 +1,89 @@
+{
+    "skills": [
+        {
+            "what": "Frontend",
+            "skills": [
+                {
+                    "id": 0,
+                    "what": "HTML5",
+                    "icon": "../icons/html5.svg"
+                },
+                {
+                    "id": 1,
+                    "what": "CSS3",
+                    "icon": "../icons/css3.svg"
+                },
+                {
+                    "id": 2,
+                    "what": "Javascript",
+                    "icon": "../icons/javascript.svg"
+                },
+                {
+                    "id": 3,
+                    "what": "Typescript",
+                    "icon": "../icons/typescript.svg"
+                },
+                {
+                    "id": 4,
+                    "what": "React",
+                    "icon": "../icons/react.svg"
+                },
+                {
+                    "id": 5,
+                    "what": "Redux",
+                    "icon": "../icons/redux.svg"
+                },
+                {
+                    "id": 6,
+                    "what": "Vue",
+                    "icon": "../icons/vue.svg"
+                },
+                {
+                    "id": 7,
+                    "what": "Bootstrap",
+                    "icon": "../icons/bootstrap.svg"
+                }
+            ]
+        },
+        {
+            "what": "Backend",
+            "skills": [
+                {
+                    "id": 0,
+                    "what": "Node",
+                    "icon": "../icons/node.svg"
+                },
+                {
+                    "id": 1,
+                    "what": "Express js",
+                    "icon": "../icons/express.svg"
+                }
+            ]
+        },
+        {
+            "what": "Game dev",
+            "skills": [
+                { "id": 0, "what": "Defold", "icon": "../icons/defold.svg" },
+                { "id": 1, "what": "Godot", "icon": "../icons/godot.svg" },
+                { "id": 2, "what": "Phaser", "icon": "../icons/phaser.svg" }
+            ]
+        },
+        {
+            "what": "Tools",
+            "skills": [
+                {
+                    "id": 0,
+                    "what": "Git",
+                    "icon": "../icons/git.svg"
+                },
+                { "id": 1, "what": "NPM", "icon": "../icons/npm.svg" },
+                { "id": 2, "what": "Figma", "icon": "../icons/figma.svg" },
+                {
+                    "id": 3,
+                    "what": "Affinity Designer",
+                    "icon": "../icons/affinity.svg"
+                }
+            ]
+        }
+    ]
+}

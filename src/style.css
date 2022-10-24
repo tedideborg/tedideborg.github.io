@@ -1,0 +1,134 @@
+/* Global variables */
+:root {
+    --clr-primary-400: hsla(47, 100%, 84%, 1);
+
+    --clr-neutral-900: hsla(0, 0%, 0%, 1);
+    --clr-neutral-700: hsla(0, 0%, 80%, 1);
+    --clr-neutral-200: hsla(0, 0%, 95%, 1);
+    --clr-neutral-100: hsla(0, 0%, 100%, 1);
+
+    --ff-primary: 'quicksand', Verdana, sans-serif;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+    --fs-xl: clamp(5rem, 12vw, 9.375rem);
+    --fs-100: 0.8rem;
+    --fs-200: 1rem;
+    --fs-400: 1.5625rem;
+    --fs-500: 1.875rem;
+    --fs-600: 2rem;
+    --fs-700: 3.125rem;
+
+    --sp-100: 0.25rem;
+    --sp-200: 0.5rem;
+    --sp-300: 0.75rem;
+    --sp-400: 1rem;
+    --sp-500: 1.5rem;
+    --sp-600: 2rem;
+    --sp-700: 3rem;
+    --sp-800: 4rem;
+    --sp-900: 5rem;
+
+    --max-width: 960px;
+}
+
+@media (max-width: 30em) {
+    :root {
+        --fs-700: 2.5rem;
+    }
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+}
+
+.fs-primary-heading {
+    font-weight: 700;
+    font-size: var(--fs-xl);
+}
+
+.fs-secondary-heading {
+    font-weight: 700;
+    font-size: var(--fs-700);
+}
+
+.fs-medium-heading {
+    font-weight: 400;
+    font-size: var(--fs-500);
+}
+
+.fs-medium-bold-heading {
+    font-weight: 700;
+    font-size: var(--fs-500);
+}
+
+.fs-small-heading {
+    font-weight: 700;
+    font-size: var(--fs-400);
+}
+
+.fs-link {
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+.fs-link:hover {
+    opacity: 0.4;
+}
+
+small {
+    font-weight: 300;
+    font-size: var(--fs-200);
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+/* Usable classes */
+.container {
+    width: min(var(--max-width), 100% - 28px);
+    margin-inline: auto;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 50em) {
+    .columns {
+        flex-direction: column;
+        gap: var(--sp-700);
+    }
+}
+
+.columns-spaced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-bottom {
+    margin-bottom: var(--sp-600);
+}
+
+.visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
