@@ -2,6 +2,16 @@
     "projects": [
         {
             "id": 6,
+            "title": "Set & Forget",
+            "description": "Random password number generator and numbers game.",
+            "image": "/images/set-and-forget.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/set-and-forget/",
+            "labels": ["Svelte"],
+            "info": "Website I built to create a random number password and then having you play a number game to make you forget it. A way to stop myself from exit the screen time on my phone"
+        },
+        {
+            "id": 5,
             "title": "Weather App",
             "description": "A small weather app built with Angular",
             "image": "/images/weather-app.png",
@@ -11,7 +21,7 @@
             "info": "A simple weather app I built with Angular, just to give it a go."
         },
         {
-            "id": 5,
+            "id": 4,
             "title": "Lowrez Wrassle",
             "description": "A low resolution multiplayer game for the web, built with Godot",
             "image": "/images/lowResWrassle_small.png",
@@ -21,7 +31,7 @@
             "info": "A low resolution game that I made with the lowrezjam boundaries (but not for the jam). Created with Godot game engine."
         },
         {
-            "id": 4,
+            "id": 3,
             "title": "Workout generator",
             "description": "A site to randomize a workout, built with React",
             "image": "/images/workout_small.png",
@@ -29,16 +39,6 @@
             "link": "https://tedideborg.github.io/workout-generator/#/workout",
             "labels": ["React", "SASS", "Typescript"],
             "info": "A simple workout generator I built with React, TypeScript and sass."
-        },
-        {
-            "id": 3,
-            "title": "Chris Forvård",
-            "description": "A simple website for my moms business",
-            "image": "/images/chris_small.png",
-            "category": "Frontend Development",
-            "link": "https://chrisfotvard.se",
-            "labels": ["HTML", "CSS"],
-            "info": "A simple one-page website I built for my mothers fot care salon. Built to be very easy to read and to be used on old computers as well."
         },
         {
             "id": 2,
