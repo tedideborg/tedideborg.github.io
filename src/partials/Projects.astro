@@ -1,42 +1,53 @@
 ---
-import Project from "../components/Project.astro";
-import json from "../data/projects.json";
+import Project from '../components/Project.astro';
+import json from '../data/projects.json';
 
 const projects = json.projects;
-
 ---
+
 <section>
-	<h2 class="fs-secondary-heading space-bottom">Projects</h2>
-	<div class="projects">
-		{projects.map((project, index) => {
-			if (index < 5) return <Project link={project.link} title={project.title} image={project.image} category={project.category} />
-		}
-		)}
-	</div>
-	<div class="see-more">
-		<a href="/projects" class="fs-link fs-medium-bold-heading">See more...</a>
-	</div>
+    <h2 class="fs-secondary-heading space-bottom">Projects</h2>
+    <div class="projects">
+        {
+            projects.map((project, index) => {
+                if (index < 5)
+                    return (
+                        <Project
+                            link={project.link}
+                            title={project.title}
+                            image={project.image}
+                            category={project.category}
+                        />
+                    );
+            })
+        }
+    </div>
+    <div class="see-more">
+        <a href="/projects" class="fs-link fs-medium-bold-heading"
+            >See more...</a
+        >
+    </div>
 </section>
 
 <style>
-	h2 {
-		margin-bottom: 40px;
-	}
-	
-	.projects {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-	}
+    h2 {
+        margin-bottom: 40px;
+    }
 
-	.see-more {
-		width: 100%;
-		text-align: center;
-		margin-block: var(--sp-600);
-	}
+    .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-	/* .project {
+    .see-more {
+        width: 100%;
+        text-align: center;
+        margin-block: var(--sp-600);
+    }
+
+    /* .project {
 		flex: 0 1 min-content;
 		margin: var(--sp-300) 0;
 	} */
