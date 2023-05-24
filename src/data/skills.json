@@ -1,7 +1,7 @@
 {
     "skills": [
         {
-            "what": "Frontend",
+            "title": "I've worked professionally with",
             "skills": [
                 {
                     "id": 0,
@@ -20,34 +20,54 @@
                 },
                 {
                     "id": 3,
-                    "what": "Typescript",
-                    "icon": "/icons/typescript.svg"
-                },
-                {
-                    "id": 4,
                     "what": "React",
                     "icon": "/icons/react.svg"
                 },
                 {
-                    "id": 5,
+                    "id": 4,
                     "what": "Redux",
                     "icon": "/icons/redux.svg"
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "what": "Vue",
                     "icon": "/icons/vue.svg"
                 },
                 {
-                    "id": 7,
-                    "what": "Bootstrap",
-                    "icon": "/icons/bootstrap.svg"
-                }
+                    "id": 6,
+                    "what": "Git",
+                    "icon": "/icons/git.svg"
+                },
+                { "id": 7, "what": "NPM", "icon": "/icons/npm.svg" }
             ]
         },
         {
-            "what": "Backend",
+            "title": "I've built personal projects with",
             "skills": [
+                {
+                    "id": 0,
+                    "what": "Svelte",
+                    "icon": "/icons/svelte.svg"
+                },
+                {
+                    "id": 1,
+                    "what": "Typescript",
+                    "icon": "/icons/typescript.svg"
+                },
+                { "id": 2, "what": "Godot", "icon": "/icons/godot.svg" },
+                { "id": 3, "what": "Astro", "icon": "/icons/astro.svg" }
+            ]
+        },
+        {
+            "title": "I've dabbled with",
+            "skills": [
+                { "id": 0, "what": "Defold", "icon": "/icons/defold.svg" },
+                { "id": 2, "what": "Phaser", "icon": "/icons/phaser.svg" },
+                {
+                    "id": 6,
+                    "what": "Bootstrap",
+                    "icon": "/icons/bootstrap.svg"
+                },
                 {
                     "id": 0,
                     "what": "Node",
@@ -61,27 +81,18 @@
             ]
         },
         {
-            "what": "Game dev",
+            "title": "Tools I have used",
             "skills": [
-                { "id": 0, "what": "Defold", "icon": "/icons/defold.svg" },
-                { "id": 1, "what": "Godot", "icon": "/icons/godot.svg" },
-                { "id": 2, "what": "Phaser", "icon": "/icons/phaser.svg" }
-            ]
-        },
-        {
-            "what": "Tools",
-            "skills": [
+                { "id": 0, "what": "Figma", "icon": "/icons/figma.svg" },
                 {
-                    "id": 0,
-                    "what": "Git",
-                    "icon": "/icons/git.svg"
-                },
-                { "id": 1, "what": "NPM", "icon": "/icons/npm.svg" },
-                { "id": 2, "what": "Figma", "icon": "/icons/figma.svg" },
-                {
-                    "id": 3,
+                    "id": 1,
                     "what": "Affinity Designer",
                     "icon": "/icons/affinity.svg"
+                },
+                {
+                    "id": 2,
+                    "what": "Logic Pro",
+                    "icon": "/icons/logic-pro.svg"
                 }
             ]
         }
