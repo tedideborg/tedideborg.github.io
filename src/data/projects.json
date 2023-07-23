@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "id": 8,
+            "title": "My components (still a wip)",
+            "description": "An experimental site where I collect useful code snippets and components that I've found throught the years",
+            "image": "/images/my-components.png",
+            "category": "Frontend Development",
+            "link": "https://tedideborg.github.io/my-components/",
+            "labels": ["SolidJs"],
+            "info": "A website that I wanted to build as an experiment, not using any build tools and npm modules and just using plain js, css and html (importing packages through cdn). Aside from that this is a website where I collect random useful code snippets and components that I've found or built throughout the years."
+        },
+        {
             "id": 7,
             "title": "My webpage",
             "description": "My personal webpage that you're probably reading this on.",
