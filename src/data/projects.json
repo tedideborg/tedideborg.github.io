@@ -1,8 +1,8 @@
 {
     "projects": [
         {
-            "id": 8,
-            "title": "My components (still a wip)",
+            "id": 6,
+            "title": "My components",
             "description": "An experimental site where I collect useful code snippets and components that I've found throught the years",
             "image": "/images/my-components.png",
             "category": "Frontend Development",
@@ -11,7 +11,7 @@
             "info": "A website that I wanted to build as an experiment, not using any build tools and npm modules and just using plain js, css and html (importing packages through cdn). Aside from that this is a website where I collect random useful code snippets and components that I've found or built throughout the years."
         },
         {
-            "id": 7,
+            "id": 5,
             "title": "My webpage",
             "description": "My personal webpage that you're probably reading this on.",
             "image": "/images/my-website.png",
@@ -21,7 +21,7 @@
             "info": "My personal website that I built with Astro which I have come to love. I used vanilla css and I focused on it being very accessible."
         },
         {
-            "id": 6,
+            "id": 4,
             "title": "Set & Forget",
             "description": "Random password number generator and numbers game.",
             "image": "/images/set-and-forget.png",
@@ -31,7 +31,7 @@
             "info": "Website I built to create a random number password and then having you play a number game to make you forget it. A way to stop myself from exit the screen time on my phone"
         },
         {
-            "id": 5,
+            "id": 3,
             "title": "Weather App",
             "description": "A small weather app built with Angular",
             "image": "/images/weather-app.png",
@@ -41,7 +41,7 @@
             "info": "A simple weather app I built with Angular, just to give it a go."
         },
         {
-            "id": 4,
+            "id": 2,
             "title": "Lowrez Wrassle",
             "description": "A low resolution multiplayer game for the web, built with Godot",
             "image": "/images/lowResWrassle_small.png",
@@ -51,17 +51,17 @@
             "info": "A low resolution game that I made with the lowrezjam boundaries (but not for the jam). Created with Godot game engine."
         },
         {
-            "id": 3,
+            "id": 1,
             "title": "Workout generator",
             "description": "A site to randomize a workout, built with React",
             "image": "/images/workout_small.png",
             "category": "Frontend Development",
-            "link": "https://tedideborg.github.io/workout-generator/#/workout",
+            "link": "https://tedideborg.github.io/workout-generator/",
             "labels": ["React", "SASS", "Typescript"],
             "info": "A simple workout generator I built with React, TypeScript and sass."
         },
         {
-            "id": 2,
+            "id": 0,
             "title": "Circl'r",
             "description": "A iPhone game built with Godot",
             "image": "/images/circlr_small.png",
@@ -69,26 +69,6 @@
             "link": "https://tedideborg.itch.io/circlr",
             "labels": ["Godot"],
             "info": "A game that I made for iPhone and iPad created with Godot game engine. That is now living on Itch."
-        },
-        {
-            "id": 1,
-            "title": "Pomodoro Timer",
-            "description": "A pomodoro timer built with vanilla js",
-            "image": "/images/pomodoro_small.png",
-            "category": "Frontend Development",
-            "link": "https://tedideborg.github.io/pomodoro/",
-            "labels": ["HTML", "CSS", "Javascript"],
-            "info": "A simple pomodorotimer that I built in vanilla Javascript."
-        },
-        {
-            "id": 0,
-            "title": "BPM Counter",
-            "description": "A BPM counter built with vanilla js",
-            "image": "/images/bpm_small.png",
-            "category": "Frontend Development",
-            "link": "https://tedideborg.github.io/bpm/",
-            "labels": ["HTML", "CSS", "Javascript"],
-            "info": "A very simple heartbeat counter that I made with Javascript as an examination project for my webdevelopment course."
         }
     ]
 }
