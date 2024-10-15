@@ -5,40 +5,29 @@
             "skills": [
                 {
                     "id": 0,
-                    "what": "HTML5",
-                    "icon": "/icons/html5.svg"
-                },
-                {
-                    "id": 1,
-                    "what": "CSS3",
-                    "icon": "/icons/css3.svg"
-                },
-                {
-                    "id": 2,
-                    "what": "Javascript",
-                    "icon": "/icons/javascript.svg"
-                },
-                {
-                    "id": 3,
                     "what": "React",
                     "icon": "/icons/react.svg"
                 },
                 {
-                    "id": 4,
+                    "id": 1,
                     "what": "Redux",
                     "icon": "/icons/redux.svg"
                 },
                 {
-                    "id": 5,
+                    "id": 2,
                     "what": "Vue",
                     "icon": "/icons/vue.svg"
                 },
                 {
-                    "id": 6,
+                    "id": 3,
+                    "what": "Typescript",
+                    "icon": "/icons/typescript.svg"
+                },
+                {
+                    "id": 4,
                     "what": "Git",
                     "icon": "/icons/git.svg"
-                },
-                { "id": 7, "what": "NPM", "icon": "/icons/npm.svg" }
+                }
             ]
         },
         {
@@ -48,11 +37,6 @@
                     "id": 0,
                     "what": "Svelte",
                     "icon": "/icons/svelte.svg"
-                },
-                {
-                    "id": 1,
-                    "what": "Typescript",
-                    "icon": "/icons/typescript.svg"
                 },
                 { "id": 2, "what": "Godot", "icon": "/icons/godot.svg" },
                 { "id": 3, "what": "Astro", "icon": "/icons/astro.svg" }
