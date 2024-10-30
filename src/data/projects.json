@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "id": 7,
+            "title": "Matchy Matchy",
+            "description": "A simple and delightful match 3 game",
+            "image": "/images/match-3-game.png",
+            "category": "Game Development",
+            "link": "https://tedideborg.github.io/match-3-game",
+            "labels": ["SolidJs", "Phaser", "ToneJs"],
+            "info": "Simple match 3 game I've made with Phaser, SolidJS and ToneJs. And once again I've not used any tooling and just used vanilla js, css and html."
+        },
+        {
             "id": 6,
             "title": "My components",
             "description": "An experimental site where I collect useful code snippets and components that I've found throught the years",

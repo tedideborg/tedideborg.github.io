@@ -39,21 +39,21 @@
                     "icon": "/icons/svelte.svg"
                 },
                 { "id": 2, "what": "Godot", "icon": "/icons/godot.svg" },
-                { "id": 3, "what": "Astro", "icon": "/icons/astro.svg" }
+                { "id": 3, "what": "Astro", "icon": "/icons/astro.svg" },
+                { "id": 4, "what": "Phaser", "icon": "/icons/phaser.svg" }
             ]
         },
         {
             "title": "I've dabbled with",
             "skills": [
                 { "id": 0, "what": "Defold", "icon": "/icons/defold.svg" },
-                { "id": 2, "what": "Phaser", "icon": "/icons/phaser.svg" },
                 {
                     "id": 6,
                     "what": "Bootstrap",
                     "icon": "/icons/bootstrap.svg"
                 },
                 {
-                    "id": 0,
+                    "id": 2,
                     "what": "Node",
                     "icon": "/icons/node.svg"
                 },
